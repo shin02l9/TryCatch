@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+@charset "UTF-8";
+
+/* 공통부문 */
+*{padding: 0px; margin: 0px;}
+li{list-style-type: none;}
+a{color: black; text-decoration: none;}
+
+.footerTopAll, .footerBottomAll{ 
+	width: 1200px; 
+	margin: 0 auto; 
+	padding: 28px 0px;
+	color: #666666;
+}
+.footer1{ font-size: 13px; border-bottom: 0.5px solid #666666;}
+.footer1, .footer2{ background-color: #292929; letter-spacing: 0.8px;}
+.footer2{ font-size: 11px; padding: 10px 0px; }
+.footerTopUl{display: flex;}
+.footerTopUl li{margin-right: 15px;}
+.personalInfo{ color: #BBBBBB; font-weight: bold; }

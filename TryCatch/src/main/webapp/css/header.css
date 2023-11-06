@@ -1,0 +1,208 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'intelone-mono-font-family-regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+*{padding: 0px; margin: 0px; box-sizing: border-box;font-family: intelone-mono-font-family-regular;}
+li{list-style-type: none;}
+a{color: black; text-decoration: none;}
+
+/* 헤더 전체 구역 */
+.headerContainer{width:100%; border-bottom: 1px solid #D2D4D9;background-color: #ffffff;}
+/* 공용 사이즈 */
+.webcontainer{
+	width: 1024px;
+	margin: 0 auto;
+}
+/* 헤더 내용구역 */
+.headerWrap{
+	display:flex;
+	width: 1400px;
+	margin: 0 auto;
+	height: 135px;
+	align-items: center;
+}
+/* 로고 이미지 구역 */
+.headerLogoBox{
+	
+}
+.headerLogoBox img{
+	width:200px;
+}
+/* 카테고리 전체 구역 */
+.headerRightWrap{
+	display: flex;
+	flex-direction: column;
+	width: 100%;height: 110px;
+	margin-left: 70px;	
+}
+/* 카테고리와 검색 구역 */
+.headerCategoryWrap{
+	display: flex;
+	align-items: center;
+}
+/* 카테고리 구역 */
+.headerCategoryBox{
+	display: flex;	
+	justify-content: space-between;
+	width: 60%;
+	font-size: 18px;
+}
+/* 로그인 구역 */
+.headerLoginBox{
+	display: flex;
+	width: 90%; height: 60px;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* 회원 이미지 */
+.memberImg img{
+	width: 50px;
+    height: 50px;
+    border: solid 1px #e8e8e8;
+    border-radius: 50% /* 둥근모서리 */;
+}
+/* 로그아웃 텍스트 여백 */
+.logoutText{
+	margin: 0px 27px 0px 10px;
+}
+/* 검색 구역 */
+.headerSearchBox{
+	display: flex;
+	margin-left: 91px;
+	position: relative;
+}
+/* 검색창 */
+.headerSearchBox input{
+	border: none;
+	border-radius : 4px;
+	background-color: #e8e8e8;
+	padding: 8px 5px 8px 30px;
+	outline: none;
+	font-size: 13px;
+    width: 250px;
+}
+/* 검색 아이콘  */
+.headerSearchBox button{
+	border:none;
+	background-color: transparent;
+	width: 30px;
+    height: 34px;
+	background-image: url(/TryCatch/img/searchIcon.png);
+	position: absolute;
+	z-index: 1;
+	background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: 3px 6px;
+}
+/* 모달 전체 구역 */
+.modalWrap{height: 700px;}
+/* 모달 로고 구역 */
+.signHeader{
+	display: flex;
+	font-size: 30px;
+	font-weight: bold;
+}
+/* 모달 로고 사이즈 */
+.signHeader img{width: 250px;padding: 14px 0px 0px 48px;}
+/* 모달 로고 옆 텍스트 사이즈 */
+.signHeader div{padding: 58px 0px 0px 30px;}
+/* 모달 왼쪽 구역 */
+.signLeftWrap{padding: 63px;}
+/* 인풋 구역 */
+.signInput{margin: 15px 0px 0px 56px}
+/* 인풋태그 스타일 */
+.signInput input{
+	width: 390px;
+	padding: 14px;
+	border-radius: 11px;
+	border: none;
+    background-color: #e8e8e8;
+	margin: 12px 0px;
+}
+/* placehorder 기울이기 */
+.signInput input::placeholder{font-style: italic;}	
+/* 모달 오른쪽 구역 */
+.signRightWrap{background-color: #1D1F21;	} 
+/* 오른쪽 구역 이미지 */
+.signRightWrap img{width:450px;margin-top: 440px;}
+/* 회원가입 버튼 구역 */
+.sighUpBtnBox{align-items: center;}
+/* 회원가입 버튼 */
+.sighUpBtnBox button{
+	width: 390px;
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2A3240;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0 5px 18px -7px rgba(0,0,0,1);
+    margin: 24px 0px 16px 0px;
+}
+/* 로그인 하러 가기 스타일 */
+.wantLogin{
+	display: inline-block;
+    color: #DB3735;
+    font-weight: bold;
+}
+/* 유효성 검사 div */
+.signUpCheckId , .signUpCheckEmail , .signUpCheckPwd , .signUpCheckConfirm{
+	font-size: 12px;
+    color: #DB3735;
+    padding-left: 3px;
+}
+/* 비밀번호 찾기 구역 */
+.findPasswordBox{margin-top: 50px;}
+/* 비밀번호 찾기 스타일 */
+.forFindPasswordEmail{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 20px;
+}
+/* 찾은 비밀번호 스타일 */
+.foundPassword{
+	margin-top: 13px;
+    font-size: 26px;
+    border-bottom: 0.5px solid #e8e8e8;
+    padding-bottom: 5px;
+}
+.loginName{font-weight: bold;}
+
+
+/* 알림 팝업창 */
+.alarmM{
+	min-width: 380px; min-height: 150px;
+	border: 0.5px solid #9D9D9D;
+	background-color: #EFEFEF;
+	position: fixed; 
+	left: 40px; 
+	padding: 20px 20px;
+	border-radius: 5px;
+	box-shadow: 3px 7px 10px #656567;
+	z-index: 1; 
+	
+	/* 애니메이션 */
+	bottom: -150px; /* 초기에 밑에서 숨겨진 상태 */
+	transition: opacity 0.3s ease, bottom 0.5s ease; /* 투명도와 위치에 대한 트랜지션 효과 추가 */
+}
+
+/* 애니메이션 */
+.alarmM.show {
+    bottom: 50px; /* 클래스가 추가될 때 밑에서 올라오도록 설정 */
+    opacity: 1;
+}
+
+.alarmM h4{ padding-bottom: 8px; font-weight: bold;}
+.alarmM a{ padding-bottom: 5px;}
+.alarmM a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #DC3837;
+}
+.changeColor {
+	color:  #DC3633;
+}

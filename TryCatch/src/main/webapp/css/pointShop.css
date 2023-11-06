@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* 제목 구역 */
+.titleWrap{margin: 40px 0px 70px 0px;}
+/* 제목 */
+.titleWrap h1{
+	border-bottom: 1px solid #e8e8e8;
+    padding: 10px;
+}
+.colorCategoryWrap h2{ padding:10px; }
+/* div 테이블 제목 구역  */
+.colorTableTitle{
+	width: 414px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px 10px 133px;
+}
+.colorTableTitle div{font-size: 24px;}
+/* 색상 div 하나  */
+.colorBox{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: #ffffff;
+    border-bottom: 1px solid black;
+}
+.colorBox div{
+	width:100px;
+	text-align: center;
+}
+/* 구매 버튼 */
+.buyBtn{
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;	
+	background-color: #ffffff;
+}
+.changeGray{ background-color: #EDEDED;}
+/* 현재 장착 된 버튼 */
+.nowBtn{ border: none;}
+/* 구매 버튼 */
+.buyBtn.defaultBtn{ border:none;background-color: black; color:#ffffff;box-shadow: 0 10px 35px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);}
+/* 구매 된 버튼 */
+.buyBtn.equipBtn{box-shadow: 0 10px 35px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);}
+

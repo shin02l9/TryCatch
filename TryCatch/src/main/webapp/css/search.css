@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+.wrap{ background-color: #F8FAFC; }
+
+.searchCountPrint{
+	font-weight: bold;
+	font-size: 20px;
+}
+/* 스크롤바 커스텀 */
+.cont {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.cont::-webkit-scrollbar {
+  width: 8px; /* 스크롤바의 너비 조절 */
+}
+
+.cont::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.cont::-webkit-scrollbar-thumb {
+  background-color: #9D9D9D; /* 스크롤바 색상을 원하는대로 설정 */
+  border-radius: 10px;
+}
+
+.cont::-webkit-scrollbar-button {
+  display: none; /* 스크롤바의 방향표시 버튼 숨김 */
+}
+
+
+.searchInputBox{
+	width: 60%; margin: 20px auto;
+	height: 50px;
+	display: flex;
+	background-color: white;
+	border: solid 0.5px #B9B9B9;
+}
+
+.searchInputBox input{
+	width: 92%;
+	background-color: white;
+	border: none;
+}
+
+.searchInputBox input:focus{
+	outline: none; /* 테두리를 제거하는 스타일 */
+    border: none; /* 경계선을 제거하는 스타일 (선택적) */
+}
+
+.searchInputBox img{
+	width: 43px; height: 40px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.searchCount{width: 60%; margin: 20px auto;}
+
+.cont{
+	width: 60%; margin: 0 auto;
+	height: 250px;
+	background-color: white;
+	border: solid 0.5px #B9B9B9;
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+
+/* 상위 카테고리 안에 내용들 */
+.contH{
+	width: 60%; margin: 0 auto;
+	display: flex; justify-content: space-between; 
+	padding-top: 20px;
+}
+
+.contH h3{
+	font-size: 25px;
+}
+
+.printContent button{
+	border: none;
+	background-color: transparent;
+	color: #313131;
+}
+.printContent button:hover{
+	font-weight: bold;
+	color: black;
+}
+
+.bottomCont{
+	display: flex;	
+	align-items: center;
+	vertical-align: middle; 
+}
+.bottomCont img{
+	width: 35px; height: 35px;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+.bottomCont h5{
+	font-weight: bold;
+	margin-top: 8px;
+}
+
+.contText div{
+	margin: 8px 0px; 
+}
+
+.contText{
+	margin-left: 10px;
+	width: 100%;
+}
+
+.contTextP{
+	height: 25px;
+ 	display: -webkit-box; 	/* 레거시 웹킷 브라우저를 위한 접두사 사용 */
+	-webkit-line-clamp: 2; 	/* 최대 표시할 줄 수를 2로 설정 */
+	overflow: hidden; 		/* 텍스트가 요소를 벗어날 경우 숨김 */
+ 	text-overflow: ellipsis;/* 초과된 텍스트를 "..."으로 표시 */
+ 	width: 90%; 			/* 요소의 너비를 조절 */
+}
+
+.bottomCont{
+	cursor: pointer;
+}
+
+.contTextA{
+	font-weight: bold; font-size: 20px;
+	margin: 10px 0px;
+	color: #DB3735 ;
+}
+
+.contTextA:hover{
+	text-decoration: underline; 
+	color: #07286B;
+}
+
+.contLikeBox{ 
+	font-size: 7px;
+	color: #525252;
+}
+
+.margin{
+	height: 50px;
+}
+
+.nothing{
+	text-align: center;
+}

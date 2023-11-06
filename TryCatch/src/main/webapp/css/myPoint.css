@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* 포인트 내역 */
+.pointTitle{   
+	text-align: center;
+    margin: 80px 0px 60px 0px;
+} 
+/* 테이블 요소 하나 */
+.ContentBox{
+	display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 13px 0px 25px 0px;
+}
+.ContentBox div{font-size: 14px;}
+.pointContent{width: 300px; }
+.pointValue{width: 70px;}
+.pointDate{width: 138px;}
+.pointContent , .pointValue , .pointDate{text-align: center;}
+.pageBtnWrap{
+	margin: 20px 0px 30px 0px;
+    text-align: center;
+}
+.pageBtnWrap button{	
+	background-color: #2C2E30;
+	color: white;
+	border-style: none;
+	border-radius: 5px;
+	width: 30px; 
+	height: 30px;
+	line-height: 30px;
+}
+.pageBtnWrap button:hover{background-color: #DB3735;}
+.selectpage{background-color: #DB3735 !important;}

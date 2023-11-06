@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+
+.boardHead{
+	display: flex;
+	justify-content: space-between;
+}
+
+.writeBtn{
+	background-color: #2C2E30;
+	color: white;
+	border-style: none;
+	border-radius: 5px;
+	height: 30px;
+}
+
+.writeBtn:hover {
+	background-color: #DB3735;
+}
+
+.contentBox table{
+	margin : 20px 0px 20px 0px;
+	width: 100%;
+
+}
+
+.contentBody{
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+	width: 1024px;
+}
+
+.contentTr{
+	border-top: 0.5px solid #e8e8e8;
+	
+}
+
+.conTop td{
+	padding-right: 20px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.iconImg{
+	width: 20px;
+	margin-right: 5px;
+}
+
+.conTitle{
+	font-size: 20px;
+}
+
+.conTitle:hover{
+	background-color: #e8e8e8;
+}
+
+.concont{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	color: #59515E;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.conIn{
+	width: 50%;
+	height: 25px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.pageBox button{
+	margin: 10px;
+	width: 20px;
+}
+
+
+.boardBottom{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.srAndWr{
+	display: flex;
+	justify-content: center;
+}
+
+.bTn{
+	width: 100px;
+}
+
+.boardBottom{
+	margin-bottom: 30px;
+}
+
+.pageBox button{
+	background-color: #2C2E30;
+	color: white;
+	border-style: none;
+	border-radius: 5px;
+	width: 30px; 
+	height: 30px;
+	line-height: 30px;
+	
+}
+
+.selectpage{
+	background-color: #DB3735 !important;
+}
+
+.pageBox button:hover {
+	background-color: #DB3735;
+}
+
+.subcate{
+	display : flex;
+	margin: 50px 0px 50px 0px; 
+	justify-content: space-around;
+}
+
+.subcate button {
+	width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #2C2E30;
+    color: white;
+    border-style: none;
+}
+
+.subcate button:hover {
+	background-color: #DB3735;
+}
+
+.selectsubcate{
+	background-color: #B9B9B9;
+}
+
+
+.searchBtn{
+	background-color: #2C2E30;
+	color: white;
+	border-style: none;
+	border-radius: 5px;
+	height: 28px;
+}
+
+.searchBtn:hover {
+	background-color: #DB3735;
+}
+
+.notice{ 
+	background-color: #e8e8e8;
+}

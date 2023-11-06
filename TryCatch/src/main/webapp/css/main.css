@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+p{ margin-bottom:  0rem !important;}
+
+#carouselExampleIndicators{
+	height: 700px;
+	margin-bottom: 50px;
+}
+
+#carouselExampleIndicators img{
+	height: 700px;
+	object-fit: cover;
+}
+
+.mainBottom{
+    width: 1300px; height: 600px;
+    padding: 50px;
+    margin: 0 auto;
+    /* border: solid 1px black; */
+}
+
+/* 메인 게시글 목록 */
+.mainBottom h3{
+	font-size: 40px;	
+}
+
+.mainBottom h3, .mainBottom table{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.mainBottom table{
+	margin: 20px auto;
+}
+
+.maintable td{
+	cursor: pointer; 
+}
+
+/* 메인 버튼 */
+.mainBtnbox{
+	padding-top: 50px;
+	text-align: center;
+}
+.mainBtn{
+	width: 550px; height: 80px;
+	margin: 50px 20px;
+	border: none;
+	background-color: #E6E6E6;
+	font-size: 18px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.mainBtn:hover {
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  background-color: #B8B8B8;
+}
+
+ /* 테이블 내용 커지면 생략되게 */
+.maintable tr{
+	white-space: nowrap 	!important;
+    overflow: hidden 		!important;
+    text-overflow: ellipsis !important;
+	height: 45px 			!important;
+	max-height: 45px 		!important;
+	border-bottom: 0.5px solid #eeeeee;
+}
+.maintablebcontent{
+	/* display: -webkit-box; 
+	-webkit-line-clamp: 1; */
+	overflow: hidden; 
+	text-overflow: ellipsis;
+}

@@ -1,0 +1,149 @@
+@charset "UTF-8";
+.lobby-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	font-family: Arial, sans-serif;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	width: 300px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size : cover;
+	margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+/* 버튼 스타일 */
+.lobby-button {
+    padding: 15px 20px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.lobby-container{
+	width: 800px;
+	height : 800px;
+	
+}
+
+
+.lobby-button:hover {
+    background-color: #45a049;
+}
+
+/* +채팅방 만들기 버튼 스타일 */
+.create-room-button {
+    background-color: #2A3240;
+	height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px; 
+    font-size: 30px;   
+    margin-top: 50px;
+}
+
+.create-room-button:hover {
+    background-color: #C5504C;
+
+}
+
+/* 1번방 ~ 5번방 버튼 스타일 */
+.room-button {
+    background-color: #2A3240;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.room-button:hover {
+    background-color: #C5504C;
+}
+
+
+/*------------------모달 창------------------*/
+.ModalTotal{
+	width : 500px;
+}
+.modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 500px ; 
+    height: 300px ;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+	display: flex;
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    width: 400px !important;
+    height : 400px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.modalheader{
+	text-align: center;
+}
+#roomTitle{
+	height: 50px;
+	margin-top: 50px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+#roomTitle {
+    height: 60px;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}
+        
+        
+/* .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 20%;
+    height: 30%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 25% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+} */        

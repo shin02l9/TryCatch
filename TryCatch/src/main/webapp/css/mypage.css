@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* 폼태그 스타일 */
+.profileImgBox{
+	margin: 70px 0px 40px 0px;
+}
+/* 이미지 구역 label 스타일 */
+.fileUploadLabel{
+	display:none;
+    position: absolute;
+    width: 242px;
+    height: 246px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color:gray;
+    opacity: 0.5;
+    color:black;
+}
+/* 이미지 구역 호버시 display 변경 */
+.prifileImg:hover .fileUploadLabel{
+	display:flex;
+}
+/* 이미지 업로드 태그 */
+#profileFile{display: none;}
+/* 이미지 구역 */
+.prifileImg{
+    width: 242px;
+    height: 246px;
+    border: 1px solid #e8e8e8;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+/* 프로필 이미지 사이즈 */	
+.prifileImg img{
+	border-radius: 50%;
+	width: 100%;
+    height: 100%;}
+/* 내용 구역 */
+.provileContentBox {
+	margin: 0 auto;
+    width: 400px;
+}
+/* 경험치와 등급 구역 */
+.gradeAndExpBox{
+	display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+/* 경험치와 등급 스타일 */
+.gradeAndExpBox .mexp , .gradeAndExpBox .mgrade{
+	width: 185px;
+    padding: 14px;
+    border-radius: 11px;
+    border: none;
+    background-color: #e8e8e8;
+    margin: 12px 20px 0px 0px;
+    color: #C73D43;
+    font-weight: bold;
+}
+/* 인풋 스타일, 포인트 박스 인풋 스타일 */
+.profileNameBox input , .profilePointBox .mpoint{
+	width: 390px;
+    padding: 14px;
+    border-radius: 11px;
+    border: none;
+    background-color: #e8e8e8;
+    margin: 12px 0px;
+}
+.profilePointBox .mpoint{color: #C73D43; font-weight: bold;}
+    
+/* 포인트 박스 */
+.profilePointBox{margin: 8px 0px;}
+.profileButtonBox{    
+	display: flex;
+    justify-content: space-between;
+    width: 240px;
+    margin: 40px auto 100px auto;
+}	
+.text{ margin-left : 4px;}
+.mgrade , .mexp , .mpoint , .mname::placeholder {font-style: italic;}
+.editBtn{    
+	padding: 10px;
+    width: 48%;
+    height: 58px;
+    font-weight: bold;
+    border: none;
+    background-color: #68615C;
+    color: #ffffff;
+    border-radius: 7px;
+}
+.deleteBtn{
+	padding: 5px;
+    width: 50%;
+    background-color: #C73D43;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+}
+
+
+	

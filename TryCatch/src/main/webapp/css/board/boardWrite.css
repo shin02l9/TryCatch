@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+.webcontaner{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#summernote{
+	width: 800px;
+	
+}
+
+.note-editable{
+	height: 610px;
+	overflow: scroll;
+}
+
+
+
+.wrap{
+	margin: 50px 0px 50px 0px;
+	
+}
+
+.categoryGuide , .writerBox , .titleBox , .editorBox , .passwordBox , .buttonBox{
+	margin-bottom: 20px;
+}
+
+.categoryBox{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.writerBox{
+	font-size: 20px;
+}
+
+.titleBox{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.titleBox input {
+	width: 971px;
+	padding: 2px 2px 2px 8px;
+}
+
+.passwordBox{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 2px 2px 2px 8px;
+}
+
+.writeBtn{
+	background-color: #2C2E30;
+	color: white;
+	border-style: none;
+	border-radius: 5px;
+	height: 50px;
+	width: 100%;
+	font-size: 30px;
+	letter-spacing : 30px;
+}
+
+.writeBtn:hover {
+	background-color: #DB3735;
+}
+
+
+
+
+
+
